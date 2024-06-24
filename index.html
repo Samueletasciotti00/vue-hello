@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue</title>
 
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="app">
         <h1>{{ frases }}</h1>
+        <img :src="imageUrl" alt="Dynamic Image" :class="vue_class">
     </div>
     
     <!-- Vue 3.x -->
